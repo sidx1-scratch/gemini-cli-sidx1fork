@@ -29,7 +29,7 @@ With the Gemini CLI you can:
    Or install it with:
 
    ```bash
-   npm install -g @google/gemini-cli
+   npm install -g @sidx1/sidx1chat-cli
    gemini
    ```
 
