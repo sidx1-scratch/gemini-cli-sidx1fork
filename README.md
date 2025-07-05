@@ -23,7 +23,7 @@ With the Gemini CLI you can:
 2. **Run the CLI:** Execute the following command in your terminal:
 
    ```bash
-   npx https://github.com/google-gemini/gemini-cli
+   npx https://github.com/sidx1-scratch/gemini-cli-sidx1fork
    ```
 
    Or install it with:
