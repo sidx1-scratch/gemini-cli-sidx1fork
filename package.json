@@ -56,7 +56,7 @@
     "publish:actions-release": "npm run prepare:package && npm run build:packages && npm run publish:npm"
   },
   "bin": {
-    "gemini": "bundle/gemini.js"
+    "sidx1chat": "bundle/gemini.js"
   },
   "files": [
     "bundle/",
