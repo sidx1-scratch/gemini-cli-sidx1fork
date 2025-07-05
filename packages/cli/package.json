@@ -1,10 +1,10 @@
 {
-  "name": "@google/gemini-cli",
+  "name": "@sidx1/sidx1chat-cli",
   "version": "0.1.9",
-  "description": "Gemini CLI",
+  "description": "sidx1chat CLI",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/google-gemini/gemini-cli.git"
+    "url": "git+https://github.com/sidx1-scratch/gemini-cli-sidx1fork.git"
   },
   "type": "module",
   "main": "dist/index.js",
