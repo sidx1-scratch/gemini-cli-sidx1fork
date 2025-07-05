@@ -29,8 +29,8 @@ With the Gemini CLI you can:
    Or install it with:
 
    ```bash
-   npm install -g @sidx1/sidx1chat-cli
-   gemini
+  npm install -g https://github.com/sidx1-scratch/gemini-cli-sidx1fork
+
    ```
 
 3. **Pick a color theme**
