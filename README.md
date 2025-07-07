@@ -19,17 +19,15 @@ With the sidx1chat CLI you can:
 
 ## Quickstart
 
-1. **Prerequisites:** Ensure you have [Node.js version 20](https://nodejs.org/en/download) or higher installed.
+1. **Prerequisites:** Ensure you have [Node.js version 20](https://nodejs.org/en/download) or higher installed. and also have git or git bash
 2. **Run the CLI:** Execute the following command in your terminal:
 
    ```bash
-  git clone https://github.com/sidx1-scratch/gemini-cli-sidx1fork.git
+git clone https://github.com/sidx1-scratch/gemini-cli-sidx1fork.git
 cd gemini-cli-sidx1fork
 npm install
 npm run build
 npm link
-
-
    ```
 
   
