@@ -1,42 +1,40 @@
 ## Uninstalling the CLI
 
-Your uninstall method depends on how you ran the CLI. Follow the instructions for either npx or a global npm installation.
+  Windows (Command Prompt/PowerShell)
 
-### Method 1: Using npx
 
-npx runs packages from a temporary cache without a permanent installation. To "uninstall" the CLI, you must clear this cache, which will remove gemini-cli and any other packages previously executed with npx.
+   1. Open Command Prompt or PowerShell.
+   2. Navigate to the directory where you cloned the repository. (e.g., cd C:\Users\Admin)
+   3. Unlink the npm package (if you linked it):
 
-The npx cache is a directory named `_npx` inside your main npm cache folder. You can find your npm cache path by running `npm config get cache`.
 
-**For macOS / Linux**
+   1     npm unlink gemini-cli-sidx1fork
 
-```bash
-# The path is typically ~/.npm/_npx
-rm -rf "$(npm config get cache)/_npx"
-```
+      Explanation: This command removes the global symbolic link created by `npm link`, if it exists. It
+  might show an error if it wasn't linked or the link is already gone, which is fine.
+   4. Remove the project directory:
 
-**For Windows**
+   1     rmdir /s /q gemini-cli-sidx1fork
 
-_Command Prompt_
+      Explanation: `rmdir` is the command to remove directories. `/s` removes all subdirectories and files.
+  `/q` performs the removal quietly, without asking for confirmation.
 
-```cmd
-:: The path is typically %LocalAppData%\npm-cache\_npx
-rmdir /s /q "%LocalAppData%\npm-cache\_npx"
-```
 
-_PowerShell_
+  macOS and Linux (Bash/Zsh)
 
-```powershell
-# The path is typically $env:LocalAppData\npm-cache\_npx
-Remove-Item -Path (Join-Path $env:LocalAppData "npm-cache\_npx") -Recurse -Force
-```
 
-### Method 2: Using npm (Global Install)
+   1. Open your Terminal.
+   2. Navigate to the directory where you cloned the repository. (e.g., cd /home/youruser/ or cd
+      /Users/youruser/)
+   3. Unlink the npm package (if you linked it):
 
-If you installed the CLI globally (e.g., `npm install -g @google/gemini-cli`), use the `npm uninstall` command with the `-g` flag to remove it.
+   1     npm unlink gemini-cli-sidx1fork
 
-```bash
-npm uninstall -g @google/gemini-cli
-```
+      Explanation: This command removes the global symbolic link created by `npm link`, if it exists. It
+  might show an error if it wasn't linked or the link is already gone, which is fine.
+   4. Remove the project directory:
 
-This command completely removes the package from your system.
+   1     rm -rf gemini-cli-sidx1fork
+
+      Explanation: `rm` is the command to remove files and directories. `-r` (recursive) allows it to remove
+   directories and their contents. `-f` (force) makes it remove files without prompting for confirmation.
