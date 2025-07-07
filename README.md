@@ -1,13 +1,13 @@
 # Gemini CLI
 
-[![Gemini CLI CI](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml)
+[![Gemini CLI CI](https://github.com/sidx1-scratch/gemini-cli-sidx1fork/actions/workflows/ci.yml/badge.svg)](https://github.com/sidx1-scratch/gemini-cli-sidx1fork/actions/workflows/ci.yml)
 
 ![Gemini CLI Screenshot](./docs/assets/gemini-screenshot.png)
 
-This repository contains the Gemini CLI, a command-line AI workflow tool that connects to your
+This repository contains the sidx1chat CLI, a command-line AI workflow tool that connects to your
 tools, understands your code and accelerates your workflows.
 
-With the Gemini CLI you can:
+With the sidx1chat CLI you can:
 
 - Query and edit large codebases in and beyond Gemini's 1M token context window.
 - Generate new apps from PDFs or sketches, using Gemini's multimodal capabilities.
@@ -15,7 +15,7 @@ With the Gemini CLI you can:
 - Use tools and MCP servers to connect new capabilities, including [media generation with Imagen,
   Veo or Lyria](https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio/tree/main/experiments/mcp-genmedia)
 - Ground your queries with the [Google Search](https://ai.google.dev/gemini-api/docs/grounding)
-  tool, built in to Gemini.
+  tool, built in to sidx1chat.
 
 ## Quickstart
 
@@ -23,20 +23,20 @@ With the Gemini CLI you can:
 2. **Run the CLI:** Execute the following command in your terminal:
 
    ```bash
-   npx https://github.com/sidx1-scratch/gemini-cli-sidx1fork
+  git clone https://github.com/sidx1-scratch/gemini-cli-sidx1fork.git
+cd gemini-cli-sidx1fork
+npm install
+npm run build
+npm link
+
+
    ```
 
-   Or install it with:
-
-   ```bash
-  npm install -g https://github.com/sidx1-scratch/gemini-cli-sidx1fork
-
-   ```
-
+  
 3. **Pick a color theme**
 4. **Authenticate:** When prompted, sign in with your personal Google account. This will grant you up to 60 model requests per minute and 1,000 model requests per day using Gemini.
 
-You are now ready to use the Gemini CLI!
+You are now ready to use the sidx1chat CLI!
 
 ### Use a Gemini API key:
 
@@ -55,7 +55,7 @@ For other authentication methods, including Google Workspace accounts, see the [
 
 ## Examples
 
-Once the CLI is running, you can start interacting with Gemini from your shell.
+Once the CLI is running, you can start interacting with sidx1chat from your shell.
 
 You can start a project from a new directory:
 
@@ -68,8 +68,8 @@ gemini
 Or work with an existing project:
 
 ```sh
-git clone https://github.com/google-gemini/gemini-cli
-cd gemini-cli
+git clone https://github.com/sidx1-scratch/gemini-cli-sidx1fork
+cd gemini-cli-sidx1fork
 gemini
 > Give me a summary of all of the changes that went in yesterday
 ```
@@ -91,7 +91,7 @@ having issues.
 
 ### Explore a new codebase
 
-Start by `cd`ing into an existing or newly-cloned repository and running `gemini`.
+Start by `cd`ing into an existing or newly-cloned repository and running `sidx1chat`.
 
 ```text
 > Describe the main pieces of this system's architecture.
