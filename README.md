@@ -99,4 +99,4 @@ gemini
 ## Troubleshooting & Uninstall
 
 - **Problems?** Check the [Troubleshooting Guide](./docs/troubleshooting.md).
-- **Want to remove it?** See the [Uninstall Instructions](./docs/uninstall.md).
+- **Want to remove it?** See the [Uninstall Instructions](./docs/Uninstall.md).
