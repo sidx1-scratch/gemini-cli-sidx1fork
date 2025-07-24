@@ -28,7 +28,7 @@ npm install -g gemini-cli-sidx1fork
 Now run it:
 
 ```bash
-gemini
+sidx1chat
 ```
 
 Sign in with your Google account when it asks. Done.
@@ -53,7 +53,7 @@ Only do this if you plan on messing with the code.
     ```
 4.  **Run it:**
     ```bash
-    gemini
+    sidx1chat
     ```
 
 ---
