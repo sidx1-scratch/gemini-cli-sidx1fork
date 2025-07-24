@@ -33,7 +33,7 @@ sidx1chat
 
 Sign in with your Google account when it asks. Done.
 
-### For Developers (Manual Build)
+### For Developers (Manual Build) or legacy version
 
 Only do this if you plan on messing with the code.
 
