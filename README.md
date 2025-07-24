@@ -98,5 +98,5 @@ gemini
 
 ## Troubleshooting & Uninstall
 
-- **Problems?** Check the [Troubleshooting Guide](./docs/TROUBLESHOOTING.md).
-- **Want to remove it?** See the [Uninstall Instructions](./docs/UNINSTALL.md).
+- **Problems?** Check the [Troubleshooting Guide](./docs/troubleshooting.md).
+- **Want to remove it?** See the [Uninstall Instructions](./docs/uninstall.md).
